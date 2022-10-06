@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud's Portfolio Site</title>
+    <link rel="stylesheet" href="styleMeUp.css"> 
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="main" onload="typeWriter()">
+    
+    <script>
+        var i = 0;
+        var txt = 'I like to build stuff';
+        var speed = 100;
+            function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("typeMe").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }
+      </script>
+
+    <div class="nav-wrapper">
+        <nav>
+            <a href="#">.home()</a>
+            <a href="#about">.about()</a>
+            <a href="#exp">.experience()</a>
+            <a href="#contact">.contact()</a>
+        </nav>
+    </div>
+    
+    <section class="home">
+        <div class="maintxt">
+            hi, i'm <span>mahmoud</span>.
+        </div>
+        <div class="subtxt1" id="typeMe"></div>
+        <div class="subtxt2">
+            I'm a software engineering student based in Ottawa with a background in health sciences. I'm currently focused on artificial intelligence and machine learning, cloud technology, and malware analysis
+        </div>
+    </section>
+
+    <div class="backgroundtest">
+        <img src="" alt="">
+    </div>
+
+    <section class="about" id="about">
+        <div class="head">
+            <h1>
+                mahmoud.about()
+            </h1>
+        </div>
+        
+        <div class="float-main">
+            <div class="float-child">
+                <img src="me.jpg" alt="old pic of me"> 
+            </div>
+
+            <div class="float-child">
+                <p>
+                    I am currently in my first year of <span>Computer Engineering</span> at Algonquin College. I have a <span>BScH from Queen's University</span> and a background in health sciences. Some of the technologies and tools that I have been working with include:
+                </p>
+                <br>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C/C++</li>
+                    <li>HTML and CSS</li>
+                    <li>Google Cloud</li>
+
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="experience" id="exp">
+        <div class="head">
+            <h1>
+                mahmoud.experience()
+            </h1>
+        </div>
+
+        <div class="title">
+            Occupational Health & Safety Advisor <span>2018-2019</span>
+        </div>
+        <div class="organization">
+            Canada Border Services Agency
+        </div>
+        <div class="list">
+            <ul>
+                <li>Oversaw CBSA headquarters buildings as regional occupational health and safety advisor</li>
+                <li>Used my knowledge of the Canada Labour Code and the National Joint Council Directive to work with clients and provided guidance on a case-by-case basis to branch and department management</li>
+                <li>Developed a deep understanding of public sector infrastructure</li>
+                <li>Briefed management on ongoing cases and provided summaries for recorded hearings with Health and Safety officers</li>
+            </ul>
+        </div>
+
+        <div class="title">
+            Biomechanics Tutor <span>2019-2021</span>
+        </div>
+        <div class="organization">
+            Queen's University Arts & Science Undergraduate Society
+        </div>
+        <div class="list">
+            <ul>
+                <li>Taught and guided 20 students on how to approach problems in Biomechanics </li>
+                <li>Provided advice based on my own experience to these students about managing stress and staying healthy in a high-stress environment </li>
+                <li>Prepared students for quizzes, tests, and exams</li>
+
+            </ul>
+        </div>
+
+        <div class="title">
+            Research Assistant <span>2019-2021</span>
+        </div>
+        <div class="organization">
+            Queen's University Human Vascular Control Lab
+        </div>
+        <div class="list">
+            <ul>
+                <li>Ran testing protocols on over 100 participants and provided recommendations to primary investigators on optimizations</li>
+                <li>Assisted in writing research proposals and manuscripts</li>
+                <li>Collected large amounts of data and performed analysis and modelling of large data sets</li>
+            </ul>
+        </div>
+
+        <div class="title">
+            Founder and Co-President <span>2019-2021</span>
+        </div>
+        <div class="organization">
+            MentalMatters (Advocacy Group at Queen's University)
+        </div>
+        <div class="list">
+            <ul>
+                <li>I founded and managed MentalMatters with the mission to improve the overall mental well-being of secondary and post-secondary students through education, research, and resources</li>
+                <li>Hired and managed an executive team for 2 years</li>
+                <li>Built and maintained a website for the initiative</li>
+                <li>Organized and delivered presentations on mental health to hundreds of high school students in the Kingston city area</li>
+                <li>Worked cooperatively with Queen's University and other non-profit initiatives to develop events and resources for students </li>
+            </ul>
+        </div>
+
+        <div class="title">
+            COR Staff Member <span>2019-2021</span>
+        </div>
+        <div class="organization">
+            Campus Obversation Room (COR)
+        </div>
+        <div class="list">
+            <ul>
+                <li>Set up and ran promotional events around campus to increase awareness of this resource at Queen's (marketing)</li>
+                <li>Monitored individuals who are intoxicated and provided detailed reports to supervising healthcare staff on patient status</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="head">
+            <h1>
+                mahmoud.contact()
+            </h1>
+        </div>
+
+        <div class="message">
+            <span class="bold">Get in touch with me!</span> <br> <br>
+            e-mail: <a href="mailto:abde0167@algonquinlive.com">Click here to send me an email!</a> <br>
+            <span class="linkedin">LinkedIn</span>: <a href="https://www.linkedin.com/in/mahmoud-abd5/">Connect and send me a message here!</a> 
+
+        </div>
+        <br><br><br>
+        <div class="resume">
+            <span class="bold">Download an updated copy of my Resume!</span> <br> <br> <br> <br> 
+            <form method="get" action="Resume.pdf">
+                <button type="submit" class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>
+            </form>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+
+
+    </section>
+
+
+</body>
+</html>

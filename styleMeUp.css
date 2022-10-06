@@ -1,0 +1,215 @@
+:root {
+    --lightBlue: #22def7;
+    --yellow: #ffff89;
+    --green: #27f714;
+}
+
+.main {
+    background-color: #040c24;
+    /* background:-webkit-linear-gradient(blue, green);
+    background:-moz-linear-gradient(blue, green);
+    background: linear-gradient(blue, green); */
+    font-family: 'IBM Plex Mono', sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.nav-wrapper {
+    text-decoration: none;
+    text-align: right;
+    font-size: 1.5em;
+    font-weight:bolder;
+}
+
+a {
+    text-decoration: none;
+    color: var(--lightBlue);
+}
+
+a:hover{
+    color:var(--yellow);
+}
+
+.home {
+    color:white;
+    position: relative;
+    font-size: 4em;
+    margin-top: 3em;
+    margin-left: 2em;
+    text-align: left;
+    width: 750px;
+}
+
+
+.maintxt span {
+    color: var(--lightBlue);
+    font-size:1.4em;
+    font-weight: bold;
+}
+
+.subtxt1 {
+    color: rgb(255, 255, 137);
+    font-size: 55%;
+    font-style:italic;
+}
+
+.subtxt2 {
+    color:rgb(255, 255, 137);
+    padding-top: 20px;
+    font-size: 35%;
+    text-align:justify;
+    line-height: 1.5em;
+}
+
+.home span:hover {
+    color: rgb(39, 247, 20);
+}
+
+.about {
+    color: var(--yellow);
+    text-align: center;
+    margin-top: 500px; 
+   
+}
+
+.about p {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.about h1 {
+    color: var(--lightBlue);
+    font-size: 3em;
+    text-align: center;
+   
+}
+
+.about img {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+}
+
+.float-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    background-color: greenyellow;
+}
+
+.float-child {
+    width: 40%;
+    float: left;
+    padding: 50px;
+    
+}
+
+.float-child p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.float-child p span {
+    color: var(--lightBlue);
+}
+
+@counter-style bulletpoint {
+    system: cyclic;
+    symbols: "\29BF";
+    suffix: " ";
+}
+.float-child ul {
+    color: var(--lightBlue);
+    list-style: bulletpoint;
+    text-align: justify;
+    font-size: 1.5em;
+    font-weight:bold;
+    line-height: 1.5em;
+    position: relative;
+    width: 175px;
+    margin: auto;
+}
+
+.float-child ul li:hover {
+    color: var(--green);
+}
+
+.experience {
+    color: var(--yellow);
+    text-align: center;
+    margin-top: 1000px;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.experience h1 {
+    color: var(--lightBlue);
+    font-size: 3em;
+    text-align: center;
+}
+
+.experience .title {
+    font-weight: bold;
+    font-size: 1.3em;   
+}
+
+.experience .organization {
+    text-decoration: underline;
+}
+
+.experience .list {
+    text-align: left;
+}
+
+.experience span {
+    color:#27f714;
+    font-size: 0.7em;
+}
+
+.contact {
+    color: var(--yellow);
+    text-align: center;
+    margin-top: 1000px;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.contact h1 {
+    color: var(--lightBlue);
+    font-size: 3em;
+    text-align: center;
+}
+
+.contact .bold {
+    font-size: 1.5em;
+    color: var(--yellow);
+    text-decoration: underline;
+}
+
+.contact .linkedin {
+    color: #0072B1;
+}
+
+.contact a {
+    color: var(--green);
+}
+
+.contact a:hover {
+    color: violet;
+}
+
+.contact .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 35%;
+}
+
+.contact .btn:hover {
+    background-color: royalblue;
+}
